@@ -1,0 +1,9 @@
+Employee/student leave request form
+
+Admin panel to view and manage leave requests
+
+Leave status: pending, approved, rejected
+
+Email notification integration (optional)
+
+Date validation and reason logging
