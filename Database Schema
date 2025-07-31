@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS leave_system;
+USE leave_system;
+
+CREATE TABLE leave_requests (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(100),
+  reason TEXT,
+  start_date DATE,
+  end_date DATE,
+  status ENUM('Pending', 'Approved', 'Rejected') DEFAULT 'Pending',
+  submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
