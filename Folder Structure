@@ -1,0 +1,13 @@
+leave-management-system/
+├── index.html                # Landing page/login page
+├── leave_form.html           # Leave request form
+├── admin.php                 # Admin dashboard
+├── submit_leave.php          # Form handling logic
+├── update_status.php         # Approve/reject requests
+├── db/
+│   └── connection.php        # DB connection settings
+├── css/
+│   └── style.css             # Styling
+├── js/
+│   └── script.js             # Optional interactivity
+└── README.md
